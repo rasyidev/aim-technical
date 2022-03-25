@@ -7,4 +7,4 @@ File untuk latihan:
 5. data_penjualan_ori.db
 
 
-[Link pengumpulan tugas]('https://docs.google.com/forms/d/e/1FAIpQLSfvVGRFAqLY7qocivevZwvpsSiV_RIByIxG2Kkyjxup35hiSw/viewform')
+![Link pengumpulan tugas]('https://docs.google.com/forms/d/e/1FAIpQLSfvVGRFAqLY7qocivevZwvpsSiV_RIByIxG2Kkyjxup35hiSw/viewform')
