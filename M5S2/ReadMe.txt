@@ -1,4 +1,4 @@
-File yang diberikan ke siswa (sesi latihan):
+File untuk latihan:
 
 1. M05_S2_SQL.ipynb
 2. data_siswa.db
