@@ -1,11 +1,11 @@
 # aim-technical
 
-## 1. Clone Repository ini
-```
-git clone https://github.com/rasyidev/aim-technical.git 
-```
+Setiap folder materi memiliki Environment yang berbeda beda, pastikan untuk meng-install environment pada setiap folder (Cara instalasi terlampir pada file readme.md).
 
-## 2. Install environment
-```
-conda env create -f py38.yml
-```
+**Semangat dan perbanyak latihan yaa** 🤗
+
+Regards,
+
+
+
+*Rasyidev*
