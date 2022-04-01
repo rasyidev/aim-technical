@@ -2,7 +2,7 @@
 
 ## 1. Install Environment untuk Scraping
 ```
-conda install -f scraping.yml
+conda env create -f scraping.yml
 ```
 
 ## 2. Pindah Ke Environment yang Telah Di-install
