@@ -105,4 +105,3 @@ dependencies:
   - wincertstore=0.2=py38haa95532_2
   - winpty=0.4.3=4
   - zipp=3.7.0=pyhd3eb1b0_0
-prefix: C:\Users\Habib Abdurrasyid\miniconda3\envs\flask
