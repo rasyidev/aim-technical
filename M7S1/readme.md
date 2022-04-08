@@ -16,7 +16,7 @@
  
 ## 2. Pindah Working Directory ke `aim-technical/M7S1`
 ```
-cd M7S1
+cd aim-technical/M7S1
 ```
 
 ## 3. Install Environment untuk Scraping
