@@ -8,10 +8,12 @@ Model yang digunakan adalah Regresi Linier
 - X2 (Feature) : Jenis Kelamin
 - Y (Target) : Berat Badan
 
+---
 
 - [Dataset](https://bit.ly/3LRU8Et)
 - [Form Pengumpulan Tugas](https://forms.gle/Mju9XdVEYgB1gh4a8)
 
+---
 
 - Upload Screenshot Tampilan Web (Input dan Hasil Prediksi) yang telah dibuat
 - Upload File Zip berisi : 
