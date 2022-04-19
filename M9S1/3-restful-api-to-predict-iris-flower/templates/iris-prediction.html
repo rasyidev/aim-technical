@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Iris Prediction | Rasyidev</title>
+</head>
+
+<body class="bg-gray-100">
+    <!-- component -->
+    <!-- component -->
+    <div class="bg-gray-200 min-h-screen pt-2 font-mono my-16">
+        <div class="container flex mx-auto">
+            <div class="inputs w-full max-w-2xl p-6">
+                <h2 class="text-2xl text-gray-900">Klasifikasi Bunga Iris</h2>
+                <form class="mt-6 border-t border-gray-400 pt-4" method="POST" action="">
+                    <div class='flex flex-wrap -mx-3 mb-6'>
+                        <div class='w-full md:w-full px-3 mb-6'>
+                            <label class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'
+                                for='grid-text-3'>Panjang Daun Bunga (Sepal Length)</label>
+                            <input type="text"
+                                class='appearance-none block w-full bg-white text-gray-700 border border-gray-400 shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500'
+                                id='grid-text-3' type='text' placeholder='Masukkan panjang daun bunga (cm)'
+                                name="sepal_length" required>
+                        </div>
+                        <div class='w-full md:w-full px-3 mb-6'>
+                            <label class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'
+                                for='grid-text-4'>Lebar Daun Bunga (Sepal Width)</label>
+                            <input type="text"
+                                class='appearance-none block w-full bg-white text-gray-700 border border-gray-400 shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500'
+                                id='grid-text-4' type='text' placeholder='Masukkan lebar daun bunga (cm)'
+                                name="sepal_width" required>
+                        </div>
+                        <div class='w-full md:w-full px-3 mb-6'>
+                            <label class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'
+                                for='grid-text-1'>Panjang Mahkota Bunga (Petal Length)</label>
+                            <input type="text"
+                                class='appearance-none block w-full bg-white text-gray-700 border border-gray-400 shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500'
+                                id='grid-text-1' type='text' placeholder='Masukkan panjang mahkota bunga (cm)'
+                                name="petal_length" required>
+                        </div>
+                        <div class='w-full md:w-full px-3 mb-6'>
+                            <label class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'
+                                for='grid-text-2'>Lebar Mahkota Bunga (Petal Width)</label>
+                            <input type="text"
+                                class='appearance-none block w-full bg-white text-gray-700 border border-gray-400 shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500'
+                                id='grid-text-2' type='text' placeholder='Masukkan lebar mahkota bunga (cm)'
+                                name="petal_width" required>
+                        </div>
+                    </div>
+                    <div class="flex justify-end ">
+                        <button
+                            class="appearance-none bg-gray-200 text-gray-900 px-2 py-1 shadow-sm border border-gray-400 rounded-md hover:bg-gray-300"
+                            type="submit">Prediksi</button>
+                    </div>
+            </div>
+            </form>
+            {% if result is defined %}
+            <div class="prediction-result w-full max-w-2xl p-6">
+                <h2 class="text-2xl text-gray-900">Hasil Klasifikasi Bunga Iris</h2>
+                <img class="my-3" src="static/img/iris-flower.png" alt="iris flower">
+                <h2 class="mx-auto text-3xl text-center px-2 py-2 bg-gray-300 rounded rounded-full mt-5">{{result}}</h1>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+
+</html>
